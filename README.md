@@ -8,14 +8,16 @@ Some general guidelines:
 * Keep it clean. It's not perfect but try to keep things in good shape
 and reasonably consistent. Feel free to pick up any messes you come across.
 * Keep it minimal. The goal has always been to provide an accessible experience
-to all For Squirrels fans. No need to bring in the JS Framework Of The Month.
-In fact, don't bring in any JS at all. I recently removed it all now that CSS3
-obviated all of the js I was using. Keep the number of HTML tags and CSS classes
-to a minimum.
-* Keep it traditional.
+to all For Squirrels fans. This site currently takes a no-JS stance but I'd
+reconsider under extreme duress.
+* Keep it traditional. For anyone who's been around long enough, you've noticed
+the site hasn't changed a heck of a lot since the late 90's. Part of that is
+because I don't have good graphic design skills and part of that is intentional.
+This may be the last semi-active For Squirrels website around but I like it to
+look like it came out of that time period.
 
 You may notice some odd tags floating around that don't belong. Those are
-from a custom Perl framework I wrote in the early 2000's that powers the
+from a custom Perl framework I wrote in the early 2000's that power the
 site. The idea was to ease the work load by making common elements easy
 to share and databases easy to access but it has become cumbersome to
 maintain. It is not part of this repo because it's probably insecure and
