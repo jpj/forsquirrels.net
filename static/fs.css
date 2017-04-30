@@ -9,12 +9,21 @@
  * nice off white = #f5f5f5
  */
 
-.c1 {
+.msgb-main-msg-display:nth-child(odd) {
 	background-color: #fdf5e6;
 }
 
-.c2 {
+.msgb-main-msg-display:nth-child(even) {
 	background-color: #faf0e6;
+}
+
+.msgb-main-msg-display::before {
+	content: "->"
+}
+
+
+.msgb-main-msg-display:first-child::before {
+	content: ">"
 }
 
 .name {
