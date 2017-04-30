@@ -1,3 +1,5 @@
 captcha
 logs
 static/downloads
+static/images/captcha
+.*.swp
