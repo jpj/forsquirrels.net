@@ -12,10 +12,10 @@
 
   <h2>News</h2>
 <?le:fs.news; ?>
-    <h3 class="news_head">
-      <?le _echog g=newsDate:; ?>
-    </h3>
     <article class="news_body">
+      <h3 class="news_head">
+        <?le _echog g=newsDate:; ?>
+      </h3>
       <?le _echog g=newsBody:; ?>
     </article>
 <?le:end:fs.news?>
