@@ -71,9 +71,13 @@
 .site-title {
 	background-color: #CC3300;
 	color: #ffffff;
-	font: bold 28px Times, serif;
-	text-align: center;
-	letter-spacing: 60px;
+	font-weight: bold;
+	font-family: Times;
+	height: 20px;
+	letter-spacing: 40px;
+	overflow: hidden;
+	padding-left: 10px;
+	white-space: nowrap;
 }
 
 .page-title {
@@ -107,6 +111,7 @@ a.dead {
 body {
 	background-color: #f5f5f5;
 	font-family: arial;
+	margin: 0;
 }
 
 h2 {
