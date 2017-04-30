@@ -12,13 +12,13 @@
 
   <h2>News</h2>
 <?le:fs.news; ?>
-    <div class="news_head">
+    <h3 class="news_head">
       <?le _echog g=newsDate:; ?>
       [<a href="/admin/?newsId=<?le _echog g=newsId:; ?>">x</a>]
-    </div>
-    <div class="news_body">
+    </h3>
+    <article class="news_body">
       <?le _echog g=newsBody:; ?>
-    </div>
+    </article>
 <?le:end:fs.news?>
 
 <?le _inc file=inc/footer.html:; ?>
