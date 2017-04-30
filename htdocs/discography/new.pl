@@ -12,7 +12,7 @@ foreach my $file (@ARGV) {
 	print FILE <<"INFILE";
 <?le
 	_setg title=Discography -:;
-	_inc file=../inc/header.html:;
+	_inc file=../header.html:;
 ?>
 INFILE
 
@@ -27,5 +27,5 @@ INFILE
 			print FILE "$line\n";
 		}
 	}
-	print FILE '<?le _inc file=../inc/footer.html:; ?>';
+	print FILE '<?le _inc file=../footer.html:; ?>';
 }
