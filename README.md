@@ -1,6 +1,6 @@
 # ForSquirrels.net
 
-This is the source for [forsquirrels.net](forsquirrels.net). If you see anything that needs
+This is the source for [http://forsquirrels.net](forsquirrels.net). If you see anything that needs
 changing or adding, by all means, submit a pull request.
 
 Some general guidelines:
