@@ -97,12 +97,7 @@ a.dead {
 
 body {
 	background-color: #f5f5f5;
-	font-family: Arial,Helvetica,sans-serif;
-	margin: 0;
-}
-
-body, input, textarea {
-	font-size: 12pt;
+	font-family: arial;
 }
 
 h2 {
