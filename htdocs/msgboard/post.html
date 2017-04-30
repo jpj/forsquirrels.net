@@ -1,0 +1,134 @@
+<?le
+	_setg title=Message Board - Post:;
+	_inc file=../inc/header.html:;
+	fs.mb.doPost;
+?>
+
+    <p>
+      <a href="./">Back to board</a>
+    </p>
+
+    <p>
+      HTML is allowed for formatting your post if you want.
+      But please be responsible. <a href="#html_tips">See below</a>.
+    </p>
+
+    <p style="color:red;"><?le _echog g=errMsg:; ?></p>
+
+    <form action="post.html" method="post">
+    <table border="0" cellpadding="2" cellspacing="1">
+      <tr>
+        <td><b><span class="u">N</span>ame:</b></td>
+	<td>
+	  <input type="text" name="name" class="stdInputWidth"
+	         accesskey="n"
+	         value="<?le _echocgi cgi=name:; ?>" />
+	</td>
+      </tr>
+      <tr class="email">
+        <td>Email</td>
+	<td>
+	  <input type="text" name="email"/>
+	</td>
+      </tr>
+      <tr>
+        <td><b><span class="u">S</span>ubject:</b></td>
+	<td>
+	  <input type="text" name="subject" class="stdInputWidth"
+	         accesskey="s"
+	         value="<?le _echocgi cgi=subject:; ?>" />
+	</td>
+      </tr>
+      <tr>
+        <td><b><span class="u">B</span>ody:</b></td>
+	<td>
+	  <textarea name="body" class="stdInputWidth"
+	            accesskey="b"
+	            rows="6" cols="30"><?le _echocgi cgi=body:; ?></textarea>
+	</td>
+      </tr>
+      <tr>
+        <td><b>What are you <span class="u">L</span>istening to:</b></td>
+	<td>
+	  <input type="text" name="listeningto" class="stdInputWidth"
+	         accesskey="l"
+	         value="<?le _echocgi cgi=listeningto:; ?>" />
+	</td>
+      </tr>
+      <tr>
+        <td style="background-color: lightblue;">
+	  <img src="/static/images/captcha/<?le _echo g=captcha_md5:; ?>.png" alt="Captcha Image" />
+	</td>
+        <td style="background-color: lightblue;">
+	  Enter the text at the left here:
+	  <input type="hidden" name="captcha_md5" value="<?le _echo g=captcha_md5:; ?>" />
+	  <input type="text" name="captcha_input" />
+	</td>
+      </tr>
+      <tr>
+        <td><b>Submit:</b></td>
+	<td>
+	  <input type="hidden" name="replypost"
+	         value="<?le _echocgi cgi=replypost:; ?>" />
+	  <input type="submit" name="accion" value="Post"
+	         accesskey="p"
+	         style="border-top:solid black 2px;border-right:solid black 2px;" />
+	</td>
+      </tr>
+      <tr>
+        <td><b>Format:</b></td>
+	<td>
+	  <input type="radio" name="format" value="text" checked="checked" />
+	  Text<br />
+	  <input type="radio" name="format" value="html" />
+	  HTML<sup>(<a href="#html_tips">*</a>)</sup>
+	</td>
+      </tr>
+      <tr>
+        <td><b>Options:</b></td>
+	<td>
+	  <input type="checkbox" name="remember_name" value="1"
+<?le:if name ?>
+                 checked="checked"
+<?le:endif?>
+	  />
+	  Remember Name.
+	</td>
+      </tr>
+<?le:if threadId ?>
+      <tr>
+        <td><b>Previous posts in thread</b></td>
+	<td>
+          <div class="stdInputWidth"
+	       style="height:200px;border:solid #CC3300 2px;overflow:auto;">
+	<?le:fs.mb.dispPosts order=DESC; ?>
+            <div class="c1" id="post_<?le _echog g=postId:; ?>"
+                 style="border-bottom:solid black 1px;">
+              <b><?le _echog g=postSubject:; ?></b>
+              Posted by: <b><?le _echog g=postName:; ?></b> on:
+              <i><?le _echog g=postDate:; ?></i>
+            </div>
+            <div style="margin-bottom:7px;
+                        border-bottom: solid black 2px;">
+              <?le _echog g=postBody:; ?>
+            </div>
+	<?le:end:fs.mb.dispPosts?>
+          </div>
+        </td>
+      </tr>
+<?le:endif?>
+    </table>
+    </form>
+
+
+    <!-- HTML Tips -->
+    <h3 id="html_tips">HTML Usage</h3>
+    <div>
+      If you use HTML for formatting then
+      I excpect you to use
+      <a href="http://validator.w3.org/check?uri=referer">completely valid
+      XHTML 1.1</a> and to not break the flow of the page.
+      I will edit or delete any posts that violate this.
+    </div>
+
+<?le _inc file=../inc/footer.html:; ?>

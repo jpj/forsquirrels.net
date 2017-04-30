@@ -1,0 +1,24 @@
+<?le
+	_setg title=Main:;
+	_inc file=inc/header.html:;
+?>
+
+  <div style="border:1px solid black;background-color:lightblue;">
+    <img src="/static/images/phones.jpg" style="float:left;padding-right:10px;"
+         alt="For Squirrels by Payphones." />
+      Welcome to ForSquirrels.net!
+  </div>
+
+
+  <h2>News</h2>
+<?le:fs.news; ?>
+    <div class="news_head">
+      <?le _echog g=newsDate:; ?>
+      [<a href="/admin/?newsId=<?le _echog g=newsId:; ?>">x</a>]
+    </div>
+    <div class="news_body">
+      <?le _echog g=newsBody:; ?>
+    </div>
+<?le:end:fs.news?>
+
+<?le _inc file=inc/footer.html:; ?>

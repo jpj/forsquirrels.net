@@ -1,0 +1,49 @@
+<!DOCTYPE html
+          PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>For Squirrels - Disenchanted: <?le _echog g=title:; ?></title>
+    <meta name="google-site-verification" content="fkVfjDYdz0ayoiCV8xpD_mY8b96spSQ6eKJb--7vdbU" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="description" content="For Squirrels | Disenchanted" />
+    <meta name="author" content="Josh Johnson, http://www.solairis.com" />
+    <link rel="stylesheet" type="text/css"
+	  href="/static/fs.css"
+	  title="FS" />
+    <script type="text/javascript" src="/static/js/gen.js"></script>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" style="height:100%;">
+      <tr>
+        <td colspan="2" class="titlebar">
+	  <div class="t2" id="top">For Squirrels</div>
+	</td>
+      </tr>
+      <tr>
+        <td style="width:150px;height:100%;background-color:#cc6600;padding-left:5px;padding-bottom:5px;">
+	  <h1>&nbsp;</h1>
+	  <table border="0" cellpadding="0" cellspacing="0">
+<?le:fs.navLinks; ?>
+	    <tr>
+	      <td id="<?le _echog g=linkId:; ?>" class="navbar"
+	<?le:if linkSelected ?>
+                  style="background-color:#ffffff;"
+		  onmouseout="navbarOutSelected('<?le _echog g=linkId:; ?>');"
+	<?le:else?>
+		  onmouseout="navbarOut('<?le _echog g=linkId:; ?>');"
+	<?le:endif?>
+	          onmouseover="navbarHover('<?le _echog g=linkId:; ?>');">
+	<?le:if linkSelected ?>
+                <?le _echog g=linkTitle:; ?>
+	<?le:else?>
+		<a href="<?le _echog g=linkURL:; ?>"><?le _echog g=linkTitle:; ?></a>
+	<?le:endif?>
+              </td>
+	    </tr>
+<?le:end:fs.navLinks?>
+          </table>
+	</td>
+        <td style="width:100%;padding-left:5px;">
+
+	  <h1 class="pagehead"><?le _echog g=title:; ?></h1>

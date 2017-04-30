@@ -1,0 +1,12 @@
+<?le
+	_setg title=Message Board - Msg Posted:;
+	_inc file=../inc/header.html:;
+?>
+
+    <p>
+      <b>Your message was posted successfully!</b> You can
+      <a href="thread.html?id=<?le _echog g=threadId:; ?>&msg=<?le _echog g=postId:; ?>#post_<?le _echog g=postId:; ?>">view your message</a>
+      or <a href="./">return to the board</a>.
+    </p>
+
+<?le _inc file=../inc/footer.html:; ?>

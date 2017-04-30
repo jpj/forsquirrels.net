@@ -1,0 +1,133 @@
+Song: Buzzard
+Album: Never Bet the Devil Your Head
+Music by: Subrosa
+Tabbed by: db
+
+Okay.  I redid "Buzzard" because the last time i did 
+it the spacing got screwed up and i found some errors.  Sonically, 
+it's all there, but there is an easier way to play it.  :)  
+Standard Tuning.  (ha!)
+
+Well, like the rest of the album, the song is one-half step down.
+
+The intro is played with harmonics, running sixteenth notes, but 
+be careful.  The ninth fret harmonics are intended to sound a 
+perfect third above the open string  (these can also be played 
+at the fourth fret, but i found the sound more resonant at the 
+ninth.).  Being off the fret the slightest quarter of an inch 
+will give you a different pitch (listen to Alice In Chains "
+Again" at the breakdown (doot-doot) part, both of those two 
+different harmonics are near the third fret.). Well, here goes.
+
+Riff A
+E-|-----------------------------|
+B-|-----------------------------|
+G-|-----------------------------|
+D-|-------------------------7---|
+A-|---------4--------7----------|
+E-|---4------------------7------|
+NaturalHarmonics throughout
+
+For the next riff, octaves are used, still using slow tremolo picking
+(running 16ths) for 2 beats per note.
+Riff B
+E-|---------------------------------------------|
+B-|---------------------------------------------|
+G-|---------------------------------------------|
+D-|-----6---11----2----9----7----6---11----2----|
+A-|-----x----x----x----x----x----x----x----x----|
+E-|-----4----9----0----7----5----4----9----0----|
+
+listen to song for rhythm.                             endRiffB
+E-|--------------------------------------------------|
+B-|--------------------------------------------------|
+G-|--------------------------------------------------|
+D-|--13/14--14--14--14\13--13--13--13/14--14--14\13--|
+A-|---x--x---x---x---x--x---x---x---x--x---x---x--x--|
+E-|--11/12--12--12--12\11--11--11--11/12--12--12\11--|
+
+For the heavy distorton, it sounds like Tooke uses an overdrive 
+pedal over a naturally dirty tone in the main channel.  For the 
+verses, Tooke switches off the overdrive and plays straight 
+through the amp, which is already set to have a slightly dirty 
+sound.  These are the chords to the verse below. 
+
+Riff C
+___G#m6____E____
+E-|-(0)---------|
+B-|-(4)----0----|  It really sounds like the E is on top of that
+G-|--4-----1----|  G#6 chord, but I can't be sure how travis fingers
+D-|--6-----2----|  it...it's implied nevertheless.  For simplicity, it
+A-|--6-----2----|  could simply be picked as the notes not in 
+E-|--4-----0----|  parenthesis.
+
+Then riff A, Riff C, riff B with Fill 1 below :
+Listen to song for placement.
+Fill 1
+
+E-|-------------------------------------------------------|
+B-|-------------------------------------------------------|
+G-|-------------------------------------------------------|
+D-|--13/14---11---------13/14-----16-----------14----13\--|
+A-|---x--x----x----------x--x------x------------x-----x---|
+E-|--11/12----9----0----11/12-----14-----0-----12----11\--|
+
+The bridge uses chords below :
+E-|------------------------------------------------------------|
+B-|------------------------------------------------------------|
+G-|------------------------------------------------------------|
+D-|--4---6---7---6---7---9---7---9--11--9--11---14\------------|
+A-|--4---6---7---6---7---9---7---9--11--9--11---14\------------|
+E-|--2---4---5---4---5---7---5---7---9--7---9---12\------------|
+The (kinda) solo part :
+E-|---------------------------------------------------|
+B-|---------------------------------------------------|
+G-|-------------------------------------------------|
+D-|--13/14---14\13---13/14---14\13---13/14---14\13----|
+A-|---x--x----x--x----x--x----x--x----x--x----x--x----|
+E-|--11/12---12\11---11/12---12\11---11/12---12\11----|
+    ____________________     ________________________
+    |1.                     |2.
+E-|----------------------||---------------------------|
+B-|----------------------||---------------------------|
+G-|---------------------o||---------------------------|
+D-|-----7----6---7---6--o||----19---18---16---14---9--|
+A-|-----x----x---x---x---||-----x----x----x----x---x--|
+E-|-----5----4---5---4---||----17---16---14---12---7--|
+
+The last verse : 
+
+E-|----0----0-------0---0------0---0---0----0----0----0---0--0--0-
+B-|----9---10/12---10--10\9---12--10---9----5----5----7---9-10--9-
+G-|---------------------------------------------------------------
+D-|---------------------------------------------------------------
+A-|---------------------------------------------------------------
+E-|---------------------------------------------------------------
+
+E-|-----0---0----0---0----0----|
+B-|-----7---5----4/5\4---\2----|
+G-|----------------------------|
+D-|----------------------------|
+A-|----------------------------|
+E-|----------------------------|
+Just kinda fall off that last note there.
+
+Then riff A, riff B, outro riff below
+
+E-|-------------------------------------------------|
+B-|-------------------------------------------------|
+G-|-------------------------------------------------|
+D-|--7--6--7--6--9--7--9--7--11--9--11--9--13--14\--|
+A-|--x--x--x--x--x--x--x--x---x--x---x--x---x---x---|
+E-|--5--4--5--4--7--5--7--5---9--7---9--7--11--12\--|
+
+Then riff A to end on C#m chord :
+
+E-|--4----|
+B-|--5----|
+G-|--6----|
+D-|--6----|
+A-|--4----|
+E-|--4----|
+
+Questions, comments, you know the drill by now : dbroyles@hotmail.com

@@ -1,0 +1,30 @@
+<?le
+	_setg title=Message Board:;
+	_inc file=../inc/header.html:;
+?>
+
+
+    <p>
+	<span style="border: 2px #000000 solid; padding-left: 25px; padding-right: 25px;">
+      <a href="post.html">Post a new message</a>
+	</span>
+    </p>
+
+<?le:fs.mb.dispThreads; ?>
+    <div id="threadID_<?le _echo g=threadId:; ?>" style="border: solid black 1px;margin-bottom:7px;">
+	<?le:fs.mb.dispPosts; ?>
+      <div class="<?le _echog g=color:; ?>">
+        <?le _echog g=indent:; ?>
+        <a href="thread.html?id=<?le _echog g=threadId:; ?>&amp;msg=<?le _echog g=postId:; ?>#post_<?le _echog g=postId:; ?>"><?le _echog g=postSubject:; ?></a>
+        Posted by: <b><?le _echog g=postName:; ?></b> on:
+        <i><?le _echog g=postDate:; ?></i>
+      </div>
+	<?le:end:fs.mb.dispPosts?>
+    </div>
+<?le:end:fs.mb.dispThreads?>
+
+    <p>
+      <a href="post.html">Post a new message</a>
+    </p>
+
+<?le _inc file=../inc/footer.html:; ?>

@@ -1,0 +1,23 @@
+<?le
+	_setg title=Message Board - Delete Post:;
+	_inc file=../inc/header.html:;
+	fs.mb.doDeletePost;
+?>
+
+    <p>
+      <a href="./">Back to board</a>
+    </p>
+
+      <p><b>Authentication failed? <?le _echog g=authfailed:; ?></b></p>
+
+    <form action="deletepost.html" method="post">
+    <p>
+      Admin: <input type="text" name="adminname"/><br/>
+      Pass: <input type="password" name="adminpass"/><br/>
+      <input type="hidden" name="postId" value="<?le _echocgi cgi=postId:; ?>"/>
+      <input type="hidden" name="threadId" value="<?le _echocgi cgi=threadId:; ?>"/>
+      <input type="submit" value="Delete"/>
+    </p>
+    </form>
+
+<?le _inc file=../inc/footer.html:; ?>

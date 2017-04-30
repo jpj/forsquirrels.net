@@ -1,0 +1,40 @@
+<?le
+	fs.mb.setThread;
+	_inc file=../inc/header.html:;
+?>
+
+    <p>
+      <a href="./">Back to Board</a>
+    </p>
+
+<?le:fs.mb.dispPosts; ?>
+    <div class="c1" id="post_<?le _echog g=postId:; ?>"
+         style="border-left:solid black 2px; border-bottom:solid black 1px;">
+      <b><?le _echog g=postSubject:; ?></b>
+      Posted by: <b style="color:blue;"><?le _echog g=postName:; ?></b> on:
+      <i><?le _echog g=postDate:; ?></i>
+
+      (<a href="post.html?replypost=<?le _echog g=postId:; ?>">post
+      a reply</a>)
+    </div>
+    <div class="c2" style="margin-bottom:7px;border-left: solid black 2px;
+                           border-bottom: solid black 2px;">
+      <?le _echo g=postBody:; ?>
+
+	<?le:if postListen ?>
+      <br /><br />
+      <span style="border-top:solid 2px blue;border-right:solid 2px blue;">
+        Currently Listening to: <b><?le _echo g=postListen:; ?></b>
+      </span>
+	<?le:endif?>
+    </div>
+<?le:end:fs.mb.dispPosts?>
+<div>
+	<a href="deletepost.html?threadId=<?le _echocgi cgi=id:; ?>" style="color: lightgray;">x</a>
+</div>
+
+    <p>
+      <a href="./">Back to Board</a>
+    </p>
+
+<?le _inc file=../inc/footer.html:; ?>

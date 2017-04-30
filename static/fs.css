@@ -1,0 +1,281 @@
+/* Created in 2001. Now that's a long time ago
+ * Josh Johnson
+ * josh@forsquirrels.net
+ * http://www.forsquirrels.net/
+ */
+
+/* cornflowerblue = #6495ED
+ * lightblue = #ADD8E6
+ * olive = #808000
+ * nice off white = #f5f5f5
+ */
+
+.blockquote {
+	margin-left: 25px;
+	margin-right: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.c1 {
+	background-color: #fdf5e6;
+	/*background-color: #add8e6; */
+}
+
+.c2 {
+	background-color: #faf0e6;
+}
+
+.inline {
+	padding: 3px 3px 3px 3px;
+	background: transparent; /* url('/images/grey-trans-bg.png'); */
+	border:solid black 1px;
+	color: #000000;
+	margin-left: 3px;
+	margin-right: 12px;
+	text-align:center;
+}
+
+.lyrics {
+	background-color: transparent;
+	font-family: arial,helvetica,sans-serif; font-size: 12pt;
+	color: #000000;
+}
+
+.name {
+	background-color: transparent;
+	text-decoration: none; font-family: arial,helvetica,sans-serif;
+	font-size: 18pt; color: #0033CC;
+}
+
+.navbar {
+	background-color: #CC6600;
+	border-left:solid black 1px;
+	border-top:solid black 1px;
+	color: #000000;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12pt;
+	padding-left:5px;
+}
+
+.news_body {
+	/*border: solid black 1px;*/
+	font-size: 12pt;
+	margin-left: 15px;
+	margin-right: 25px;
+	margin-bottom: 15px;
+}
+
+.news_head {
+	border-left: solid #6495ed 1px;
+	/*border-right: solid #6495ed 2px;
+	border-top: solid #6495ed 2px;*/
+	border-bottom: solid #6495ed 1px;
+	font-size: 12pt;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+.pagehead {
+	border-left:solid black 2px;
+	border-top:solid black 1px;
+	border-bottom:solid black 1px;
+	margin-left:10px;
+	background-color:#6495ED;
+}
+
+.stdInputWidth {
+	/* Standard Width for some Input fields */
+	width: 400px;
+}
+
+.t1 {
+	background-color: transparent;
+	color: #6495ED;
+	text-align: center;
+	margin-top: -30px;
+	font: 900 24px/24px Times, serif;
+	margin-top: -26px;
+	letter-spacing: 20px;
+	text-decoration: none;
+}
+
+.t2 {
+	background-color: transparent;
+	color: #ffffff;
+	font: bold 20px/20px Times, serif;
+	text-align: center;
+	margin-top: 10px;
+	letter-spacing: 60px;
+	text-decoration: underline overline;
+}
+
+.tablature {
+	background-color: transparent;
+	font-family: monospace,courier;
+	font-size: 10pt; color: #000000;
+}
+
+.thumb {
+	border:solid #000000 2px;
+}
+
+.titlebar {
+	background-color: #CC3300;
+	color: #000000;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 10pt;
+}
+
+.u {
+	text-decoration: underline;
+}
+
+.width100per {
+	background-color: transparent;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 10pt; color: #000000;
+	vertical-align: top;
+	width: 100%;
+}
+
+/* *************************** */
+
+a:link {
+	background-color: transparent;
+	text-decoration: underline; font-family: arial,helvetica,sans-serif;
+	color: #333399;
+}
+
+a:hover {
+	background-color: #ADD8E6;
+	color: #660099;
+	font-family: arial,helvetica,sans-serif;
+	text-decoration: underline overline;
+}
+
+a:active {
+	background-color: transparent;
+	color: #9A2873;
+	font-family: arial,helvetica,sans-serif;
+	text-decoration: underline;
+}
+
+a:visited {
+	background-color: transparent;
+	color: #660099;
+	font-family: arial,helvetica,sans-serif;
+	text-decoration: underline;
+}
+
+body {
+	/*background-color: #ffffff;*/
+	/* This off-white is a little easier on the eyes. */
+	background-color: #f5f5f5;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12pt; color: #000000;
+	height:100%;
+	padding-left:0;
+	margin:0 0 0 0;
+}
+
+h2 {
+	background-color: transparent;
+	font-size: 18pt; text-align: left; color: #0033CC;
+	font-family: arial,helvetica,sans-serif;
+}
+
+html {
+	height:100%;
+}
+
+hr {
+	background-color: transparent;
+	color: #000000;
+}
+
+img {
+	border: 0;
+}
+
+img.tn {
+	border: 0;
+	height: 50px;
+	width: 50px;
+}
+
+input {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12pt; color: #000000;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #CC3300;
+}
+
+input.button {
+	border-left: 2px #f0f0f0 solid;
+	border-top: 2px #f0f0f0 solid;
+	border-right: 2px #c0c0c0 solid;
+	border-bottom: 2px #c0c0c0 solid;
+}
+
+li {
+	background-color: transparent;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12pt; color: #000000;
+}
+
+td {
+	background-color: transparent;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #000000;
+	vertical-align: top;
+}
+
+td.discosection {
+	background-color: #ffffff;
+	color: #000000;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12pt;
+	font-weight: 900;
+	text-align: center;
+	vertical-align: top;
+}
+
+td.fs {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12pt; color: #000000;
+	background-color: silver;
+	vertical-align: top;
+}
+
+td.notfs {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12pt; color: #ffffff;
+	background-color: #808080;
+}
+
+td.subhead {
+	background-color: #add8e6;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12pt; color: #000000;
+	vertical-align: top;
+}
+
+textarea {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12pt; color: #000000;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #CC3300;
+}
+
+th {
+	background-color: #ADD8E6;
+	font-family: Arial,Helvetica,sans-serif; font-weight: bold;
+	text-align: center; font-size: 12pt; color: #000000;
+}
+
+tr.email {
+	display: none;
+}

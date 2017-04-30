@@ -1,0 +1,20 @@
+<?le
+	_setg title=404 Page Not Found:;
+	_inc file=../inc/header.html:;
+?>
+
+	<p>
+	  Uh oh. Tha page <i><?le _echo env=REQUEST_URI:; ?></i>
+	  doesn't seem to exist. Well, it is to be expected. Nothing
+	  on the internet is very perminant. And this site was heavily
+	  rebuilt in June of 2006. But most of the 404's ("Page not found's")
+	  are because I moved the "pics" section which is now located
+	  at <a href="/pics.html">pics.html</a>.
+	</p>
+
+	<!--
+	  DEBUG (And shame on you for looking)
+<?le printenv; ?>
+        -->
+
+<?le _inc file=../inc/footer.html:; ?>
